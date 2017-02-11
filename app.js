@@ -17,9 +17,9 @@ var bryan = require('./routes/profiles/bryan');
 var tracy = require('./routes/profiles/tracy');
 var anguel = require('./routes/profiles/anguel');
 var farhan = require('./routes/profiles/farhan');
+var ed = require('./routes/profiles/ed');
 var neil_b = require('./routes/profiles/neil_b');
 var zander = require('./routes/profiles/zander');
-
 
 var app = express();
 
@@ -50,6 +50,7 @@ app.use('/bryan', bryan);
 app.use('/tracy', tracy);
 app.use('/anguel', anguel);
 app.use('/farhan', farhan);
+app.use('/ed', ed);
 app.use('/neil_b', neil_b);
 app.use('/zander', zander);
 
