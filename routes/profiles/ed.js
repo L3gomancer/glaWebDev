@@ -5,12 +5,12 @@ var router = express.Router();
 var name    = 'Edward Whitley';
 var twitter = 'edwardwhitley.co.uk';
 var github  = 'https://www.github.com/L3gomancer';
-var blurb   = 'Ahoy there!';
+var blurb   = 'Technophile';
 
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('profiles/ed', {
+  res.render('profiles/ed.pug', {
     name    : name,
     twitter : twitter,
     blurb   : blurb,
